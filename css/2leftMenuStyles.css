@@ -1,0 +1,162 @@
+.lateralMenuClass{
+ width:30%;
+ height:100%;
+ background-color: aquamarine;
+ 
+}
+.lateralMenuClassBlocked{
+touch-action: none;
+pointer-events: none;
+color: black;
+/*opacity: 0.2;*/
+}
+.menuCharacterClass{
+    width:100%;
+    height:100%;
+    background-color: #362815;
+    background-image: linear-gradient(#795c38, #362815);
+    
+}
+    .statsClass{
+        width:100%;
+        height:15%;
+        background-color: #362815;
+        background-image: linear-gradient(#795c38, #362815);
+        display: flex;
+    }
+            .dateClass{
+                width:33%;
+                height:100%;
+                background-color: #362815;
+                background-image: linear-gradient(#795c38, #362815);
+                border-width: 1.0vh;
+                border-style: ridge;
+                border-color: #ffe8d0;
+            }
+                .dateContentClass{
+                    position:relative;
+                    top:30%;
+                    margin:auto;
+                    text-align:center;
+                    font-size:4.5vmin;
+                    color:white;
+                    text-shadow: 0 0 2vmin #ffffff;
+                }
+            .placeClass{
+                width:34%;
+                height:100%;
+                background-color: #362815;
+                background-image: linear-gradient(#795c38, #362815);
+                border-width: 1.0vh;
+                border-style: ridge;
+                border-color: #ffe8d0;
+            } 
+                .placeContentClass{
+                    position:relative;
+                    top:30%;
+                    margin:auto;
+                    text-align:center;
+                    font-size:4.5vmin;
+                    color:white;
+                }
+            .moneyClass{
+                width:33%;
+                height:100%;
+                background-color: #362815;
+                background-image: linear-gradient(#795c38, #362815);
+                border-width: 1.0vh;
+                border-style: ridge;
+                border-color: #ffe8d0;
+            }
+                .moneyContentClass{
+                    position:relative;
+                    top:30%;
+                    margin:auto;
+                    text-align:center;
+                    font-size:4.5vmin;
+                    color:white;
+                }
+    .companionClass{
+        width:100%;
+        height:15%;
+        background-color: #362815;
+        background-image: linear-gradient(#795c38, #362815);
+        border-width: 1.0vh;
+        border-style: ridge;
+        border-color: #ffe8d0;
+    }
+    .lvlMerchantClass{
+        width:100%;
+        height:15%;
+        background-color: #362815;
+        background-image: linear-gradient(#795c38, #362815);
+        border-width: 1.0vh;
+        border-style: ridge;
+        border-color: #ffe8d0;
+    }
+    .contentCartClass{
+        width:100%;
+        height:40%;
+        background-color: #362815;
+        background-image: linear-gradient(#795c38, #362815);
+        border-width: 1.0vh;
+        border-style: ridge;
+        border-color: #ffe8d0;
+    }
+        .contentCartContainerClass{
+            height: 90%;
+            width: 95%;
+            background-color: blue;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+            .objectsCartClass{
+                /*It needs to be a grid?*/
+            }
+
+
+.optionMenuClass{
+    width:100%;
+    height:15%;
+    background-color: #362815;
+    background-image: linear-gradient(#795c38, #362815);
+    display: flex;
+}
+    .worldMapMenuClass{
+        width:25%;
+        height:100%;
+        background-color: #362815;
+        background-image: linear-gradient(#795c38, #362815);
+        border-width: 1.0vh;
+        border-style: ridge;
+        border-color: #ffe8d0;
+    }
+    .homeCartClass{
+        width:25%;
+        height:100%;
+        background-color: #362815;
+        background-image: linear-gradient(#795c38, #362815);
+        border-width: 1.0vh;
+        border-style: ridge;
+        border-color: #ffe8d0;
+    } 
+    .notesMenuClass{
+        width:25%;
+        height:100%;
+        background-color: #362815;
+        background-image: linear-gradient(#795c38, #362815);
+        border-width: 1.0vh;
+        border-style: ridge;
+        border-color: #ffe8d0;
+    }
+    .settingsMenuClass{
+        width:25%;
+        height:100%;
+        background-color: #362815;
+        background-image: linear-gradient(#795c38, #362815);
+        border-width: 1.0vh;
+        border-style: ridge;
+        border-color: #ffe8d0;
+    }

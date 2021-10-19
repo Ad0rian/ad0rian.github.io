@@ -1,14 +1,121 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+    <head>
+        <link rel="shortcut icon" href="favicon.ico">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <!--Hacer referencia al fichero con los estilos-->
+        <link rel="stylesheet" href="./engine/core/monogatari.css">
+        <link href="./css/0generalStyles.css" rel="stylesheet">
+        <link href="./css/1infopediaStyles.css" rel="stylesheet">
+        <link href="./css/1mainMenuAndConfigStyles.css" rel="stylesheet">
+        <link href="./css/2rightGameStyles.css" rel="stylesheet">
+        <link href="./css/2leftMenuStyles.css" rel="stylesheet">
+        <link href="./css/3visualNovelStyles.css" rel="stylesheet">
+        <link href="./lib/leaflet/leaflet.css" rel="stylesheet">
+        <script src="./lib/leaflet/leaflet.js"></script>
+        		<!-- Monogatari CSS Libraries -->
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+        <link rel="stylesheet" href="./style/main.css">
 
-</body>
+		<!-- Third Party JavaScript Libraries -->
+
+		<!-- Monogatari JavaScript Libraries -->
+        <script src="./engine/debug/debug.js"></script>
+        <script src="./engine/core/monogatari.js"></script>
+        <script src="./js/vn/options.js"></script>
+        <script src="./js/vn/storage.js"></script>
+        <script src="./js/vn/main.js"></script>
+        <script src="./js/vn/iniScript.js"></script>
+        <dialogs>
+            <misc>
+                <script src="./js/vn/dialogs/misc/newGameD.js"></script>
+            </misc>
+                <characters>
+                    <Rina>
+                        
+                    </Rina>
+                </characters>
+
+        </dialogs>
+
+
+    </head>
+    <body class="">
+
+                <div id="layout" class="layoutClass ">
+
+
+                    <!--<div id="lateralMenu" class="lateralMenuClass" >                 
+                        <div id="menuMap" class="">
+                            <div id="cityName" class=""></div>
+                            <div id="descriptionCity" class=""></div> 
+                            <div id="buyPrices" class=""></div>
+                            <div id="sellPrices" class=""></div>
+                            <div id="optionMenu" class=""></div>
+                        </div>
+                    </div>
+                    
+                    <div id="lateralGame" class="lateralGameClass" >
+                                     
+                        <div id="worldMap" class=""></div>
+                        <div id="movingMap" class="movingMapClass"></div>
+                        <div id="configMenu" class=""></div>
+                        <div id="informationMenu" class=""></div>
+                    </div>-->
+                    <div id="lateralMenu" class="lateralMenuClass hiddenClass " ></div>
+                    <div id="lateralVN" class="lateralGameClass hiddenClass" >
+                        <div id="monogatari">
+                            <visual-novel>
+                                <language-selection-screen></language-selection-screen>
+                                <loading-screen></loading-screen>
+                                <main-screen>
+                                    <main-menu></main-menu>
+                                </main-screen>
+                                <game-screen>
+                                    <dialog-log></dialog-log>
+                                    <text-box></text-box>
+                                    <quick-menu></quick-menu>
+                                </game-screen>
+                                <gallery-screen></gallery-screen>
+                                <credits-screen></credits-screen>
+                                <load-screen></load-screen>
+                                <save-screen></save-screen>
+                                <settings-screen></settings-screen>
+                                <help-screen></help-screen>
+                            </visual-novel>
+                        </div>
+                    </div>          
+                </div>      
+<!--
+                <div id="lateralVN" class="lateralGameClass hiddenClass" >
+                    <div id="textDialog" class="textDialogClass">
+                    <div id="nameCharacter" class ="nameCharacterClass"></div>
+                        
+                    </div>
+                    <div id="textcenter" class="textCenterClass"></div>
+                    <div id="effectsLayer" class ="effectsLayer"></div>
+                    <div id="background" class="backgroundClass">
+                        <div id="imgCharacter1"></div>
+                        <div id="imgCharacter2"></div>
+                        <div id="imgCharacter3"></div>
+                     </div>   
+                    </div>      
+                -->
+            
+
+    </body>
+    <!--bd-->
+    <script src="./bd/stats.js"></script>
+    <script src="./bd/textMenusSpanish.js"></script>
+    <script src="./bd/textMenusEnglish.js"></script>
+
+    <!--lib-->
+    <script src="./lib/jquery.min.js"></script>
+    <!--scripts-->
+    <script src="./js/menus/mainMenu.js"></script>
+  <script src="./js/index.js" defer></script>
+    <script src="./js/boot/ini.js"></script>
+    <script src="./js/menus/menuCharacter.js"></script>
+    <script src="./js/vn/visualNovelLoader.js"></script>
+    <script src="./js/maps/movingMap.js"></script>
 </html>
-
-
